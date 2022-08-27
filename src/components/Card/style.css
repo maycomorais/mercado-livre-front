@@ -1,0 +1,75 @@
+.card-container {
+  width: 224px;
+  height: 330px;
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  object-fit: cover;
+  gap: 20px;
+  -webkit-box-shadow: 0px 1px 1px 0px #cacaca;
+  box-shadow: 0px 1px 1px 0px #cacaca;
+  transition: all 0.3s ease;
+}
+
+.card-container:hover {
+  -webkit-box-shadow: 3px 3px 4px 0px #cacaca;
+  box-shadow: 3px 3px 4px 0px #cacaca;
+}
+
+.card-image {
+  height: 198px;
+  width: 224px;
+  display: flex;
+  border-bottom: #cacaca 0.5px solid;
+  justify-content: center;
+  align-items: center;
+  /* box-sizing: border-box; */
+  /* object-fit: contain; */
+}
+
+.card-image img {
+  align-self: center;
+  height: 90%;
+  /* width: 90%; */
+  padding: 5px;
+  object-fit: cover;
+}
+
+.infos-container {
+  display: flex;
+  height: 40%;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+.price {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #444;
+}
+
+.credit {
+  font-size: 13px;
+  font-weight: 600;
+  color: #02a751;
+}
+
+.shipp {
+  font-size: 13px;
+  font-weight: 600;
+  color: #02a751;
+}
+
+.description {
+  font-size: 13px;
+  color: #444;
+  display: none;
+  transition: all 0.3s ease;
+}
+
+.card-container:hover .description {
+  display: flex;
+}

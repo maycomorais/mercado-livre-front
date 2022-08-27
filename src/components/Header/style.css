@@ -1,0 +1,165 @@
+header {
+  height: 17vh;
+  width: 100vw;
+  background-color: #fff159;
+  box-sizing: border-box;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+  margin: 0 10px;
+  height: 50%;
+}
+
+.logo {
+  height: 70%;
+  /* width: 134px; */
+  cursor: pointer;
+}
+
+.meli6 {
+  height: 85%;
+  cursor: pointer;
+}
+
+.input {
+  display: flex;
+  width: 550px;
+  background-color: #fff;
+  border-radius: 3px;
+  align-items: center;
+  box-shadow: 0 1px 1px 1px rgba(51, 51, 51, 0.13);
+}
+
+.input input {
+  height: 40px;
+  width: 500px;
+  border: none;
+  padding-left: 10px;
+}
+
+.input img {
+  height: 20px;
+  cursor: pointer;
+  padding-left: 10px;
+  border-left: 1px solid #b1b1b1;
+}
+
+.input input:focus {
+  outline: 0;
+}
+
+.botton-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  /* margin: 0 10px; */
+  height: 50%;
+}
+
+.location {
+  display: flex;
+  width: 175px;
+  height: 60%;
+  padding: 5px;
+  justify-content: baseline;
+  align-items: center;
+  border: 1px solid #fff159;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.location:hover {
+  border: 1px solid #777;
+  border-radius: 5px;
+}
+
+.location h4 {
+  color: #888;
+  font-size: 10px;
+  text-overflow: ellipsis;
+}
+
+.location p {
+  color: #222;
+  font-size: 12px;
+}
+
+.location img {
+  height: 100%;
+}
+.menu-nav {
+  margin-left: -100px;
+  justify-content: baseline;
+}
+.menu-nav ul {
+  display: flex;
+  justify-content: baseline;
+  flex-direction: row;
+  height: 50%;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.menu-nav li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  color: #333333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu-nav li:hover {
+  color: #222;
+}
+
+.infos {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 14px;
+  align-items: flex-end;
+  cursor: pointer;
+  /* padding-left: 50px; */
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+}
+
+.info-container img {
+  height: 18px;
+}
+
+.info-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons {
+  display: flex;
+  height: 20px;
+  gap: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,105 @@
+.streaming-container {
+  display: flex;
+  width: 100vw;
+  background-color: #ebebeb;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.title-container {
+  display: flex;
+  width: 90vw;
+  align-items: baseline;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.title-container h3 {
+  font-weight: lighter;
+  font-size: 25px;
+  color: #777;
+}
+
+.title-container span {
+  color: blue;
+  font-weight: lighter;
+  font-size: 15px;
+  cursor: pointer;
+  padding-left: 30px;
+}
+
+.card-streaming-container {
+  width: 90vw;
+  display: flex;
+  gap: 20px;
+}
+
+.card-streaming {
+  display: flex;
+  border-radius: 6px;
+  width: 400px;
+  height: 250px;
+  cursor: pointer;
+}
+
+.um {
+  background-image: url("https://http2.mlstatic.com/resources/frontend/statics/loyal/hbo/widget/hbo-max-mlb@2x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dois {
+  background-image: url("https://http2.mlstatic.com/resources/frontend/statics/loyal/paramount/widget/paramount-mlb@2x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tres {
+  background-image: url("https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/vdp/deezer/deezer-widget-mlb@2x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info-streaming {
+  display: flex;
+  width: 100%;
+  justify-content: baseline;
+  align-items: flex-end;
+  padding: 10px;
+  gap: 10px;
+}
+
+.info-streaming img {
+  height: 35%;
+  border-radius: 10px;
+}
+
+.details-streaming {
+  display: flex;
+  flex-direction: column;
+  height: 35%;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.hype {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 22px;
+  text-shadow: #777;
+}
+.normal {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.if2 {
+  background: linear-gradient(0deg, rgba(0,101,255,1) 10%, rgba(255,255,255,0) 53%);
+}
+
+.if3 {
+  background: linear-gradient(0deg, rgba(55,37,111,1) 10%, rgba(255,255,255,0) 53%);
+}

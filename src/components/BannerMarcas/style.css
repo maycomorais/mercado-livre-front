@@ -1,0 +1,19 @@
+.banner-marca-container {
+  display: flex;
+  width: 100vw;
+  padding-top: 80px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebebeb;
+}
+
+.banner-card-container {
+    width: 90%;
+    cursor: pointer;
+}
+
+.banner-card-container img {
+  width: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
